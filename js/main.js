@@ -25,9 +25,17 @@ btnMostrar.addEventListener("click", (e) => {
   console.log("Boton btnModificar presionado");
 });
 
-const handleEvent = (e) => {
+const handleEventList = (e) => {
   e.preventDefault();
-  console.log("Boton btnModificar2 presionado");
+  let element = document.createElement("li");
+  element.innerText = "Lista creada";
+  element.classList.add("list-group-item");
+  let element2 = element.cloneNode(true);
+
+  // listas.item(0).before(element2)
+  // listas.item(0).prepend(element)
+  listas.item(0).append(element);
+  listas.item(0).after(element2);
 };
 
-btnMostrar2.addEventListener("click", handleEvent);
+btnMostrar2.addEventListener("click", handleEventList);
