@@ -19,6 +19,8 @@ git push origin main
 
 >**Vista previa del index**
 
+![Vista Previa del index](https://raw.githubusercontent.com/RicardoMiguelR/CH53-EjercicioDOM/refs/heads/main/images/captura-indexHtml.png)
+
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
