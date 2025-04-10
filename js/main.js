@@ -6,6 +6,9 @@ let otroElemento = document.querySelector("ul>li");
 let otrosElementos = document.querySelectorAll("ul>li");
 let btnMostrar = document.getElementById("btnMostrar");
 let btnMostrar2 = document.getElementById("btnMostrar2");
+let txtRFC = document.getElementById("txtRFC");
+let txtTelefono = document.getElementById("txtTelefono");
+let txtCURP = document.getElementById("txtCURP");
 
 console.log(listas.length);
 console.log(listas[0]);
@@ -67,3 +70,40 @@ const handleEventList = (e) => {
 };
 
 btnMostrar2.addEventListener("click", handleEventList);
+
+// Cuando se terminan de cargar lo elementos la pagina
+window.addEventListener("load", (e) => {
+  console.log("Se termino de cargar la pagina");
+});
+
+// Funcion para convertir a toUpperCase()
+const txtToUpper = (e) => {
+  e.preventDefault();
+  e.target.value = e.target.value.trim().toUpperCase();
+};
+
+// Funcion para cortar hasta 10 caractereres
+const telefonoSlice = (e) => {
+  e.preventDefault();
+  e.target.value = e.target.value.slice(0, 10);
+};
+
+txtRFC.addEventListener("blur", txtToUpper);
+txtCURP.addEventListener("blur", txtToUpper);
+txtTelefono.addEventListener("blur", telefonoSlice);
+
+// // blur - cuando se sale del campo
+// txtRFC.addEventListener("blur", (e) => {
+//   e.preventDefault()
+//   // txtRFC.value = txtRFC.value.toUpperCase()
+// })
+
+// txtTelefono.addEventListener("blur", (e) => {
+//   e.preventDefault()
+//   txtTelefono.value = txtTelefono.value.slice(0, 10)
+// })
+
+// txtCURP.addEventListener("blur", (e) => {
+//   e.preventDefault()
+//   txtCURP.value = txtCURP.value.toUpperCase()
+// })
