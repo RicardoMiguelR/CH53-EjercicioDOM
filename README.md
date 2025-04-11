@@ -31,15 +31,14 @@ git push origin main
 
 ![Vista Previa del index](https://raw.githubusercontent.com/RicardoMiguelR/CH53-EjercicioDOM/refs/heads/main/images/captura-indexHtml.png)
 
+### 🙌 Créditos
+Realizado por @RicardoMiguelR
+Proyecto de práctica - Generation México CH53
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-
-###🙌 Créditos
-Realizado por @RicardoMiguelR
-Proyecto de práctica - Generation México CH53
 
 ## License
 
