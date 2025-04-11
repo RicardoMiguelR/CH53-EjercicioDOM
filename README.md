@@ -1,6 +1,10 @@
-# Generation México CH53
+# Generation México CH53 🚀
 
 ## Ejercicio del DOM Javascript
+
+![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=flat&logo=bootstrap&logoColor=white)
 
 **Tareas por realizar:**
 
@@ -17,6 +21,12 @@ git commit -m "Mensaje del commit"
 git push origin main
 ```
 
+## 🧰 Herramientas utilizadas
+
+- 🧱 **HTML**
+- 🎨 **Bootstrap**
+- 🧠 **JavaScript**
+
 >**Vista previa del index**
 
 ![Vista Previa del index](https://raw.githubusercontent.com/RicardoMiguelR/CH53-EjercicioDOM/refs/heads/main/images/captura-indexHtml.png)
@@ -26,6 +36,10 @@ git push origin main
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
+
+###🙌 Créditos
+Realizado por @RicardoMiguelR
+Proyecto de práctica - Generation México CH53
 
 ## License
 
